@@ -169,7 +169,7 @@ func main()  {
       fmt.Println(rm)
       os.Exit(1)
   } else {
-      fmt.Println("Removeing container done")
+      fmt.Println("Removing container done")
   }
 
   startcontainer = `docker run -itd --name `+com1+` `+com2+` `+out2
